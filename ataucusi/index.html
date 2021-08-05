@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi Primera Página Web</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilos/style.css">
+</head>
+<body>
+	<main>
+		<nav>
+			<ul>
+					<li>INICIO</li>
+					<li>NOSOTROS</li>
+					<li>CONTACTO</li>
+			</ul>
+		</nav>
+		<header>
+			<section>
+				<h1>LA RUTA DEL DESARROLLADOR WEB (2021)</h1>
+			</section>
+		</header>
+		<article>
+			<section class="texto-definicion">
+				<h2>¿Qué es la Web? y ¿Cómo Funciona?</h2>
+				<p>
+				La Web: Funciona con una arquitectura cliente a servidor.</p>
+				<p>El Cliente es la Computadora, Celular, Tablet, el dispositivo desde el cual te conectas.</p>
+				<p>El Servidor es: la computadora física donde están los archivos y el código de la plataforma</p>
+				<p>
+				El Cliente hace una petición al servidor que se llama “request” y el servidor responde “response”.
+				El servidor hace toda una serie de test para saber si el cliente tiene los permisos. Ejemplo: tu entras a ver una película en Netflix y antes de entregarte la película el servidor revisa si tienes tu suscripción activa, sino te bloquea.
+				</p>
+				<div>
+					<img src="imagenes/clienteservidor.png">
+				</div>
+			</section>
+			<section class="texto-tipos">
+				<h2>Tipos de Programación</h2>
+					<p>Existe programación del lado del cliente y programación del lado del servidor.</p>
+					<p><b>PROGRAMACIÓN DEL LADO DEL CLIENTE</b> (Frontend, característica: Si se ve, Se puede manipular): 
+					Interacción con el usuario, En el Backend está toda la lógica, pero el usuario al final va a interactuar con una interfaz web, Ejemplo: quieres entrar a EDTeam, me interesa este curso entonces tienes que iniciar sesión. Esa lógica lo hace el Frontend te dice este usuario no está registrado así que vamos a pedirle que inicie sesión cuando quiera ver un curso, Y en toda esa interacción con el usuario en alguna de ellas le va a hacer preguntas a Backend.
+					</p>
+					<p>
+					<b>PROGRAMACIÓN DEL LADO DEL SERVIDOR</b> (Backend, Característica: No se ve, Seguridad y Rendimiento): Ocurre la lógica de negocio (El modelo de negocio): ¿Qué es lo que vendemos?, ¿A quien le vendemos?, ¿Cómo validamos esas ventas?, etc. Por ejemplo, EDTeam vende cursos entonces la lógica de negocios es: ¿Cómo se venden los cursos?, ¿Cómo se entregan los cursos?, ¿Cómo se definen los permisos para que alguien pueda ver los cursos?, todo eso ocurre en el backend. Realmente el corazón de un negocio, de una plataforma web es su Backend.</p> 
+				<div>
+					<img src="imagenes/frontendbackend.png">
+				</div>
+			</section>
+		</article>
+		<article>
+			<section class="texto-tecnologias">
+				<h2>¿Con que tecnología se puede trabajar en cada uno de estos lados?</h2>
+				<h3>FRONTEND:</h3> Las tecnologías base del Frontend son (Lenguaje de marcado: HTML) Define la estructura de las páginas web como este es el título, esto es una imagen, este es un párrafo, pero no hay lógica, no programas nada solamente marcas la estructura.), (Lenguaje de Estilos: CSS) Aunque ya se parece mucho a un lenguaje de programación realmente lo que haces es estilos, maquillaje a la página web, la dejas hermosa, la dejas bonita, que se vea bien en celulares, en una computadora, que se vea bien en una Smart TV, que haya animaciones, los colores, los tamaños de letra.), (Lenguaje de Programación: JavaScript). Son tecnologías estándares completamente web, de hecho son lenguajes que fueron creados para la web. Un programador Frontend básicamente es un pro en JavaScript.
+ 				Pro´s en HTML y CSS son los maquetadores o Web Designer, tienen el buen gusto de ver cuando algo se ve bonito, de acomodar los pixeles, las alineaciones, de escoger buenos colores, de hacer las famosas Guías de Estilos. 
+				De esa manera un Frontend puede concentrarse solo en programar no en diseñar. Obviamente todo esto depende del tamaño del equipo si una empresa es pequeña, seguramente el Frontend esta haciendo roles de Frontend y a la vez de Web Designers.
+				<p>Si lo tuyo es la programación Frontend tu necesitas usar JavaScript, Sin embargo, JavaScript es un lenguaje muy peculiar… Escribir JavaScript puro, no es buena idea. Por eso existen “Frameworks”, los “Frameworks” son como una caja de herramientas que ya te dan una serie de soluciones ya listas para que tu las uses. Por ejemplo: Si necesitas un "Log in" (autenticación de usuario) ya esta creado… el Framework ya tiene ese "Log in" listo para que tú lo utilices… además de estos existen también librerías a diferencia de los Frameworks también tienen funciones prefabricadas, pero muy específicas Por ejemplo: Podría haber una librería solo para animaciones, otra para las fechas, otra para gráficos en pantalla, etc.
+				</p>
+				<h2>Tecnologías para JavaScript:</h2>
+				<ul>
+					<li>React (Creado por la gente de Facebook): Hoy por hoy es la mas fuerte en el mundo JavaScript sin duda alguna. Es una librería para el manejo de la interfaz</li>
+					<li>Voejs (Creado por un exprogramador de Google): Que está muy fuerte en la actualidad. Es un Framework</li>
+					<li>Angular (Creado por Google): Es un Framework</li>
+					<li>Svelte: Hace unos años ha crecido muy fuerte. Es un Framework</li>
+				</ul>
+				<p>Ahí tienes 4 caminos, pero lo que yo te diría es que no es recomendable ponerte hacer JavaScript a mano, pero tampoco es recomendable que sin tener las bases claras de JavaScript usar uno de estas tecnologías.</p>
+				<h3>¿Qué hacen estas tecnologías por el Frontend?</h3>
+				<p>Manejan algo llamado estado, el Estado es como una fotografía de un momento de una página web, Mantener todas las interacciones de un usuario en una plataforma que se guardan en el estado, y manejar ese estado y que no se rompa es muy complejo, y estas tecnologías te ayudan, esto es lo más complejo de manejar con JavaScript.</p>
+				<div>
+					<img src="imagenes/frontend.png">
+				</div>
+			</section>
+			<section class="texto-tecnologias">
+				<h3>BACKEND:</h3> No es estrictamente Web, ¿Qué significa esto?. Que el mismo Backend lo puedes usar en una aplicación móvil, lo que es estrictamente Web es Frontend. 
+				<p>El Backend lo que hace es crear los servicios es decir las API (Acceso a Datos y Funciones) para que se consuman. Ejemplo: Si diseñas una aplicación para taxis tipo UBER necesitas mapas, ¿te imaginas crear esos mapas tu? ¿De dónde?, Entonces lo que haces te conectas a la API de Google Maps o de otro (obviamente les pagas) y utilizas los mapas, datos y las funciones que te dan.
+				</p>
+				<p>
+				Entonces los Backend’s lo que hacen es crear las API agregarles capas de seguridad, revisando el rendimiento, e incluso trabajaras con base de datos, aunque para la base de datos hay un rol aparte.
+				</p>
+				<b>LENGUAJES DE BACKEND:</b> 
+				<ul>
+					<li><b>PHP:</b> Uno de los viejos conocidos y de los que siguen dominando la web.</li>
+					<li><b>JAVA:</b> Poderosísimo uno de los lenguajes que más se usa en el mundo corporativo en los bancos, en las grandes empresas, Java sigue siendo el rey de la web le duela a quien le duela.</li>
+					<li><b>PHYTON:</b> Menos usado en el mundo web, Python se usa más para machine learning (inteligencia artificial), análisis de datos, pero Python también tiene un lugar interesante en el mundo  web.</li>
+					<li><b>RUBY:</b> Ha quedado un poco en el pasado, igual es muy fuerte, tuvo su momento en el que era muy usado, muy de moda pero igual se sigue usando.</li>
+					<li><b>GO:</b> Es un lenguaje excelente que tiene mucha potencia, que junta lo mejor de muchos lenguajes.</li>
+					<li><b>C#:</b> Pronunciado “Si Sharp” es el Java de Microsoft</li>
+				</ul>
+				<div>
+					<img src="imagenes/backend.png">
+				</div>
+			</section>
+			<section class="texto-importante">
+				<h2>COSAS IMPORTANTES QUE DEBES SABER ASÍ SEAS BACKEND O FRONTEND:</h2>
+				<h3>¿Qué es GIT?</h3>
+				<p>Permite que muchos programadores trabajen en el mismo proyecto de una manera fluida. Ejemplo: Cada programador tiene una copia del proyecto, trabaja en su copia local ahí hace los cambios y luego esos cambios se juntan en algo llamado Merge (es la unión de los cambios), si este se rompe hay que buscar donde hubo error, donde hubo conflictos y corregirlos y volver hacer el Merge. Cuando ya no haya problemas esto se lleva a la rama master y aquí es donde esto podría salir a producción. Este es el entorno donde ya los usuarios finales interactúan con la página web.</p>
+				<h3>Devops</h3>
+				<p>Buscamos la integración el famoso CI/CD ¿Qué es? Interacción continua y Despliegue continuo, es decir los cambios de todos los programadores se integren de manera continua(automáticamente), y luego se manden a producción de manera automática. Es la interacción de todo lo antes hablado y la infraestructura es decir: Dev (Programadores) y Ops (Maquinas).</p>
+				<div class="imagen-git">
+					<img src="imagenes/git.png">
+				</div>
+			</section>
+			<section class="texto-futuro">
+				<h2>EL FUTURO DEL DESARROLLO WEB</h2>
+				<p>El futuro es algo llamado “WA = Web Assembly” va a permitir o ya está permitiendo proyectos con WA que la web sea increíblemente poderosa, porque vas a poder usar lenguajes como C++, C#, Rust y otros, todo esto directamente en el navegador, es decir JavaScript va a dejar de ser el lenguaje único en el navegador para traer lenguajes mucho más poderosos y lo más alucinante de esto es que estos lenguajes se van a compilar(El lenguaje se traduce antes de ser ejecutado), A través de WA vamos a tener una potencia casi al nivel de aplicaciones de escritorio desde el navegador.</p>
+				<div>
+					<img src="imagenes/webassembly.png">
+				</div>
+			</section>
+		</article>
+		<aside class="aside">
+			<h3>¿Qué son las API?</h3>
+			<p>
+			Entre Frontend y Backend existe una cosa llamada “API” es como el puente que conecta el Frontend con el Backend, es la forma en la que se comunican. 			</p>
+			<p>Si eres Backend o te quieres ir por ese lado tienes que aprender a como desarrollar, como crear una “API”. Si eres Frontend tienes que aprender a consumir una “API” y trabajar con esos datos 2 principales API.</p>
+			<p>API tipo Rest: Quien controla los datos es el Backend</p>
+			<p>API tipo GraphQL: Quien controla los datos es el Frontend</p>
+			<div>
+				<img src="imagenes/api.png">
+			</div>
+		</aside>
+		<aside class="aside">
+			<h3>¿Qué es DBA?</h3>
+			<p>El acrónimo DBA son las siglas en inglés de <b>DATA BASE ADMINISTRATOR</b></p>
+			<p>	DBA: Esta persona tiene que saber SQL y tiene que saber diseñar base de datos.
+			En el mundo de las Base de datos existen 2 tipos de base de datos principales: Las dos son muy buenas, rinden muy bien hay escenarios de altísimo tráfico, manejo de datos, como las redes sociales donde las NoSQL rinden bien, pero hay escenarios donde se requieren absoluta integridad de datos, que no falle nada y ahí las SQL son las mejores por ejemplo un Banco</p>
+			<p>SQL (MySQL, Postgres): Guardan la información en tablas muy parecidos a las tablas de Excel, y luego lo que hacen es conectar las tablas para generar algún contenido en pantalla, por ejemplo -> una tabla de usuarios y una tabla de cursos, si yo quiero ver que cursos tiene este usuario tengo que cruzar estas tablas</p>
+			<p>NoSQL (Mongo, Redis): Guardan la información en documentos, y en el documento esta toda la información.</p>
+			<div>
+				<img src="imagenes/dba.png">
+			</div>
+		</aside>
+		<aside class="aside">
+			<h3>Pregunta Frecuente: ¿Se puede tener trabajo solamente sabiendo HTML y CSS?</h3>
+			<p>La respuesta es “SI” Pero debes ser bueno… ¡Bueno!... no te imaginas la cantidad de departamentos de desarrollo que le tienen pánico a HTML y CSS.</p>
+			<div>
+				<img src="imagenes/htmlycss.png">
+			</div>
+		</aside>
+		<footer>
+			<p>Autor de la Página Web: Denilson Ataucusi - Contacto:921251700 - &Copyright 2021 - todos los derechos reservados</p>
+		</footer>
+	</main>
+</body>
+</html>
